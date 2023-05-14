@@ -1,0 +1,179 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Pacifico', cursive;
+*/
+p{
+  font-family: 'Nunito', sans-serif;
+}
+a{
+  color: 000;;
+}
+
+
+
+header{
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  
+}
+
+
+.logo {
+  width: 30%;
+}
+.menu{
+  width: 50%;
+  padding-left: 10%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.menu li {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+ 
+}
+
+.menu ul li a {
+ 
+  color: #000000;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+ color: #cc9900;
+}
+
+/* my Blog section */
+.blog-section{
+  width: 80%;
+  margin:40px auto;
+  text-align: left;
+  line-height: 2;
+}
+.blog-section h2{
+  text-align: center;;
+}
+
+.blog-section img{
+  width: 50%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.readmore{
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 2px;
+
+}
+.blog-section a{
+  color: #cc9900;
+  text-decoration: none;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+/* footer */
+
+footer{
+  margin-top: 60px;
+  background-color: #444646;
+  padding: 50px 0 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #a4a6a7;
+  font-family: 'Nunito', sans-serif;
+  margin: 10px 20px;
+}
+
+footer p{
+  margin: 25px 0 15px;
+  color: #EAF6F6;
+  font-size: 12px;
+}
+
+
+ 
+ input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+} 
+
+
+.blog-inner-section{
+  display: flex;
+}
+.blog-page {
+  width: 80%;
+
+}
+.sidebar{
+  width: 20%;
+  float: right;
+
+  
+}
+
+.author{
+  margin: 0;
+  color: #444646;
+  font-size: 14px;
+}
